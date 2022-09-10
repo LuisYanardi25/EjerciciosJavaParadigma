@@ -41,6 +41,12 @@ public class Conductor {
 
 
     public void avanzar(){
-        
+        busca.buscarPaso();
+        if(this.distRecorrida>100){
+
+            for(int i =0; i<this.distRecorrida; i++){
+                this.distRecorrida+=i;
+            }
+        }
     }
 }

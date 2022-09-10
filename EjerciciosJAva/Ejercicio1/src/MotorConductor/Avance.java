@@ -1,5 +1,5 @@
 public class Avance extends Motor{
     
     //Composicion
-    Conductor cond = new Conductor();
+    Conductor cond = new Conductor(velocidad);
 }
